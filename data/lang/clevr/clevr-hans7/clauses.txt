@@ -1,0 +1,10 @@
+kp1(X):-in(O1,X),in(O2,X),size(O1,large),shape(O1,cube),size(O2,large),shape(O2,cylinder).
+kp2(X):-in(O1,X),in(O2,X),size(O1,small),material(O1,metal),shape(O1,cube),size(O2,small),shape(O2,sphere).
+kp3(X):-in(O1,X),in(O2,X),in(O3,X),color(O1,cyan),front(O1,O2),front(O1,O3),color(O2,red),color(O3,red).
+kp4(X):-in(O1,X),in(O2,X),in(O3,X),in(O4,X),size(O1,small),color(O1,green),size(O2,small),color(O2,brown),size(O3,small),color(O3,purple),size(O4,small).
+has_3_spheres_left(X):-in(O1,X),in(O2,X),in(O3,X),shape(O1,sphere),shape(O2,sphere),shape(O3,sphere),leftside(O1),leftside(O2),leftside(O3).
+has_3_metal_cylinders_right(X):-in(O1,X),in(O2,X),in(O3,X),shape(O1,cylinder),shape(O2,cylinder),shape(O3,cylinder),material(O1,metal),material(O2,metal),material(O3,metal),rightside(O1),rightside(O2),rightside(O3).
+kp5(X):-has_3_spheres_left(X).
+kp5(X):-has_3_spheres_left(X),has_3_metal_cylinders_right(X).
+kp6(X):-has_3_metal_cylinders_right(X).
+kp7(X):-in(O1,X),in(O2,X),size(O1,large),color(O1,blue),shape(O1,sphere),size(O2,small),color(O2,yellow),shape(O2,sphere).

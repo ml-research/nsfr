@@ -1,0 +1,7 @@
+kp:1:image
+same_color_pair:2:object,object
+same_shape_pair:2:object,object
+diff_color_pair:2:object,object
+diff_shape_pair:2:object,object
+diff_color:2:color,color
+diff_shape:2:shape,shape

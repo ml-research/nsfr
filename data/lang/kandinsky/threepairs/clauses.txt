@@ -1,0 +1,4 @@
+kp(X):-in(O1,X),in(O2,X),in(O3,X),in(O4,X),in(O5,X),in(O6,X),same_shape_pair(O1,O2),same_color_pair(O1,O2),same_shape_pair(O3,O4),diff_color_pair(O3,O4),same_shape_pair(O5,O6),diff_color_pair(O5,O6).
+same_shape_pair(X,Y):-shape(X,Z),shape(Y,Z).
+same_color_pair(X,Y):-color(X,Z),color(Y,Z).
+diff_color_pair(X,Y):-color(X,Z),color(Y,W),diff_color(Z,W).

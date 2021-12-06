@@ -1,0 +1,9 @@
+kp1:1:image
+kp2:1:image
+kp3:1:image
+kp4:1:image
+kp5:1:image
+kp6:1:image
+kp7:1:image
+has_3_spheres_left:1:image
+has_3_metal_cylinders_right:1:image

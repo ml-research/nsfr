@@ -1,0 +1,12 @@
+diff_color(red,blue).
+diff_color(blue,red).
+diff_color(red,yellow).
+diff_color(yellow,red).
+diff_color(blue,yellow).
+diff_color(yellow,blue).
+diff_shape(circle,square).
+diff_shape(square,circle).
+diff_shape(circle,triangle).
+diff_shape(triangle,circle).
+diff_shape(square,triangle).
+diff_shape(triangle,square).

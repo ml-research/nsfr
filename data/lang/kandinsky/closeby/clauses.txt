@@ -1,0 +1,1 @@
+kp(X):-in(O1,X),in(O2,X),closeby(O1,O2).

@@ -1,0 +1,4 @@
+kp(X):-has_red_triple(X),has_yellow_triple(X),has_blue_triple(X).
+has_red_triple(X):-in(O1,X),in(O2,X),in(O3,X),color(O1,red),color(O2,red),color(O3,red).
+has_yellow_triple(X):-in(O1,X),in(O2,X),in(O3,X),color(O1,yellow),color(O2,yellow),color(O3,yellow).
+has_blue_triple(X):-in(O1,X),in(O2,X),in(O3,X),color(O1,blue),color(O2,blue),color(O3,blue).

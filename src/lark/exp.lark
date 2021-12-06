@@ -1,0 +1,27 @@
+clause : atom ":-" body
+
+body : atom "," body
+	 | atom "."
+	 | "."
+
+atom : predicate "(" args ")"
+
+args : term "," args
+	 | term
+
+term : functor "(" args ")"
+	 | const
+	 | variable
+
+const : /[a-z0-9\*]+/
+
+variable : /[A-Z0-9]+/
+
+functor : /[a-z0-9]+/
+
+predicate : /[a-z0-9\_]+/
+
+var_name : /[A-Z]/
+small_chars : /[a-z0-9]+/
+chars : /[^\+\|\s\(\)']+/[/\n+/]
+allchars : /[^']+/[/\n+/]

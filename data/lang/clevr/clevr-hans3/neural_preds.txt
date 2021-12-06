@@ -1,0 +1,5 @@
+in:2:object,image
+color:2:object,color
+shape:2:object,shape
+size:2:object,size
+material:2:object,material

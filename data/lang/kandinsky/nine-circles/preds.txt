@@ -1,0 +1,4 @@
+kp:1:image
+has_red_triple:1:image
+has_yellow_triple:1:image
+has_blue_triple:1:image

@@ -1,0 +1,6 @@
+diff_color(red,blue).
+diff_color(blue,red).
+diff_color(red,yellow).
+diff_color(yellow,red).
+diff_color(blue,yellow).
+diff_color(yellow,blue).
