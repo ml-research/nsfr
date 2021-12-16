@@ -23,13 +23,7 @@ class MLP(nn.Module):
 
     def forward(self, inputs):
         x = self.relu(self.layer_1(inputs))
-
         x = self.relu(self.layer_2(x))
-        x = self.relu(self.layer_2(x))
-        x = self.relu(self.layer_2(x))
-        x = self.relu(self.layer_2(x))
-        x = self.relu(self.layer_2(x))
-
         x = self.layer_out(x)
         x = torch.sigmoid(x)
         return x
