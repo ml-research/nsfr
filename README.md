@@ -48,6 +48,9 @@ kp2(X):-in(O1,X),in(O2,X),size(O1,small),material(O1,metal),shape(O1,cube),size(
 kp3(X):-in(O1,X),in(O2,X),size(O1,large),color(O1,blue),shape(O1,sphere),size(O2,small),color(O2,yellow),shape(O2,sphere).
 ```
 
+# Kandinsky Patterns Dataset
+The code for the generation of Kandinsky patterns used in the paper can be found [here](https://github.com/ml-research/kandinsky_generator).
+## [kandinsky_generator](https://github.com/ml-research/kandinsky_generator)
 
 # Citation
 If this repository helps your work, please consider to cite the following papers:
