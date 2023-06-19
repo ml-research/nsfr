@@ -2,7 +2,7 @@
 
 # Update
 An extended version is available on Mach. Learn. journal. Please refer to the updated version.
-## [$\alpha$ ILP: Thinking Visual Scenes as Differentiable Logic Programs](https://link.springer.com/article/10.1007/s10994-023-06320-1)
+## [alphaILP: Thinking Visual Scenes as Differentiable Logic Programs](https://link.springer.com/article/10.1007/s10994-023-06320-1)
 
 ## [Paper](https://link.springer.com/article/10.1007/s10994-023-06320-1) [Github](https://github.com/ml-research/alphailp) [Document](https://ml-research.github.io/alphailpdoc/)
 
